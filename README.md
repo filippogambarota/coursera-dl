@@ -38,6 +38,37 @@
 
 <!-- /TOC -->
 
+# SETUP Filippo
+
+1. Create and activate the virtual enviroment
+
+```
+python -m venv venv
+```
+
+2. Install the package
+
+```
+pip install .
+```
+
+3. Create a `coursera-dl.conf` file with:
+
+```
+--username filippo.gambarota@gmail.com
+--password 
+--subtitle-language en
+--cauth 
+```
+
+For the `cauth` string see https://www.youtube.com/watch?v=xpy0H4T9zHU
+
+4. Download course
+
+```
+coursera-dl <course>
+```
+
 # Introduction
 
 [Coursera][1] is arguably the leader in *massive open online courses* (MOOC)
